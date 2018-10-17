@@ -3,6 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "11.0.2"
   s.summary      = "Network abstraction layer written in Swift"
   s.description  = <<-EOS
+  s.swift_version = '>= 4.0'
   Moya abstracts network commands using Swift Generics to provide developers
   with more compile-time confidence.
 
